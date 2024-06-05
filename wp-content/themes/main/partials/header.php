@@ -20,12 +20,14 @@
       <header class="header" id="header">
         <div class="container">
           <div class="header__top">
+
             <div class="header-icons">
               <a href="<?php echo home_url('/');?>"><img class="header-icons__logo" src="<?php echo WT_ASSET('img/header/Logo.png');?>" alt="img/header/Logo.png"/></a>
               <img class="header-icons__bar" id="header-icons__bar" src="<?php echo WT_ASSET('img/icon/bar.png');?>" alt="img/icon/close.png">
               <img class="header-icons__cls" id="header-icons__cls" src="<?php echo WT_ASSET('img/icon/close.png');?>" alt="img/icon/close.png">
             </div>
             <div class="header__menu" id="header__menu">
+
               <nav class="header-nav" id="header-nav">
                 <a class="header-nav__link" href="<?php echo home_url('/');?>">Home</a>
                 <div class="header-nav__group">
@@ -41,6 +43,7 @@
                 <a class="header-nav__link" href="<?php echo home_url('/').'?p=47'; ?>">Booking Policy</a>
                 <a class="header-nav__link" href="<?php echo home_url('/').'?p=45'; ?>">About Us</a>
               </nav>
+
               <form class="header-search" action="<?php echo home_url('/');?>">
                 <?php
                     $search_value = !empty( $_GET['s'] ) ? $_GET['s'] : '';
@@ -48,12 +51,13 @@
                 <input class="header-search__input" name="s" value="<?php echo $search_value; ?>" type="text" placeholder="Where do you want to go?">
                 <button class="header-search__btn"><img class="header-search__icon" src="<?php echo WT_ASSET('img/header/search-icon.png');?>" alt="search-icon.png"></button>
               </form>
+
             </div>
           </div>
           <?php if( empty( $_webInvert ) ): ?>
             <div class="header-banner">
-              <h1 class="header-banner__title">Victory Era Travel Company</h1>
-              <p class="header-banner__text">Your journey - Our mision</p>
+              <h1 class="header-banner__title">Dược phẩm Olympus</h1>
+              <p class="header-banner__text">Trao giá trị sống đích thực</p>
             </div>
           <?php endif; ?>
         </div>

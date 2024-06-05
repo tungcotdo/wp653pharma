@@ -744,21 +744,21 @@
 .booking-form__textarea::-webkit-input-placeholder { 
     font-weight: lighter; 
     font-size: 14.8px;
-    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    font-family: Arial, Helvetica, sans-serif;
     color: rgb(150, 150, 150);
 } 
 
 .booking-form__textarea::-moz-placeholder { 
     font-weight: lighter; 
     font-size: 14.8px;
-    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    font-family: Arial, Helvetica, sans-serif;
     color: rgb(150, 150, 150);
 } 
 
 .booking-form__textarea::-ms-input-placeholder { 
     font-weight: lighter; 
     font-size: 14.8px;
-    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    font-family: Arial, Helvetica, sans-serif;
     color: rgb(150, 150, 150);
 } 
 

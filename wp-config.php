@@ -29,7 +29,7 @@ define('WP_CACHE', true); // Added by W3 Total Cache
 
 // ** Database settings - You can get this info from your web host ** //
 /** The name of the database for WordPress */
-define( 'DB_NAME', 'wp653victoryeratravel1' );
+define( 'DB_NAME', 'wp653duocphamolympus' );
 
 /** Database username */
 define( 'DB_USER', 'root' );
