@@ -47,7 +47,7 @@
                     </ul>
     
                     <ul class="header-top__ul header-top__ul--sm">
-                        <li class="header-top__li">Hotline 0962998328</li>
+                        <li class="header-top__li">Giờ làm việc 8h30 - 17h30</li>
                     </ul>
                 </div>
             </div>
@@ -66,22 +66,22 @@
                     </form>
                 </div>
                 <div class="header-middle__right">
-                    <div class="header-middle-right__item header-middle-right__item--myaccount header-middle-right__item--xl">
-                        <a href="#" class="header-middle-right__myacount">Tài khoản của tôi</a>
+                    <div class="header-middle-right__item">
+                        <a href="#" class="header-middle-right__myacount">Hotline 0962998328</a>
                     </div>
-                    <div class="header-middle-right__item header-middle-right__item--sm">
-                        <img class="header-middle-right__icon header-middle-right__icon--search" src="<?php echo WT_ASSET('img/icon/search.png'); ?>">
+                    <!-- <div class="header-middle-right__item header-middle-right__item--sm">
+                        <img class="header-middle-right__icon header-middle-right__icon--search" src="<?php //echo WT_ASSET('img/icon/search.png'); ?>">
                     </div>
                     <div class="header-middle-right__item">
-                        <img class="header-middle-right__icon" src="<?php echo WT_ASSET('img/icon/user.png'); ?>">
+                        <img class="header-middle-right__icon" src="<?php //echo WT_ASSET('img/icon/user.png'); ?>">
                     </div>
                     <div class="header-middle-right__item header-middle-right__item--cart">
-                        <img class="header-middle-right__icon header-middle-right__icon--cart" src="<?php echo WT_ASSET('img/icon/cart.png'); ?>">
+                        <img class="header-middle-right__icon header-middle-right__icon--cart" src="<?php //echo WT_ASSET('img/icon/cart.png'); ?>">
                         <span class="header-middle-right-cart__notification">3</span>
                     </div>
                     <div class="header-middle-right__item header-middle-right__item--sm">
-                        <img class="header-middle-right__icon header-middle-right__icon--menu" src="<?php echo WT_ASSET('img/icon/bar.png'); ?>">
-                    </div>
+                        <img class="header-middle-right__icon header-middle-right__icon--menu" src="<?php //echo WT_ASSET('img/icon/bar.png'); ?>">
+                    </div> -->
                 </div>
             </div>
 

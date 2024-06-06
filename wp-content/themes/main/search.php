@@ -19,56 +19,6 @@
 
   <div class="page-width">
       <div class="product">
-          <div class="product__sidebar">
-              <h3 class="product-sidebar__header">Lọc sản phẩm</h3>
-              <ul class="product-sidebar__ul">
-                  <li class="product-sidebar__li">
-                      <h3 class="product-sidebar-item__title">Giá</h3>
-                      <div class="product-sidebar-item__body">
-                          <label for="product-sidebar-price__input--from">Từ</label>
-                          <input type="text" class="product-sidebar-price__input product-sidebar-price__input--from" id="product-sidebar-price__input--from">
-                          <label for="product-sidebar-price__input--to">Đến</label>
-                          <input type="text" class="product-sidebar-price__input product-sidebar-price__input--to" id="product-sidebar-price__input--to">
-                      </div>
-                  </li>
-                  <li class="product-sidebar__li">
-                      <h3 class="product-sidebar-item__title">Nhãn hiệu</h3>
-                      <div class="product-sidebar-item__body">
-                          <ul class="product-sidebar-brand-ul">
-                              <li class="product-sidebar-brand-li">
-                                  <input type="checkbox">
-                                  <label>Nhãn hiệu 1</label>
-                              </li>
-                              <li class="product-sidebar-brand-li">
-                                  <input type="checkbox">
-                                  <label>Nhãn hiệu 1</label>
-                              </li>
-                              <li class="product-sidebar-brand-li">
-                                  <input type="checkbox">
-                                  <label>Nhãn hiệu 1</label>
-                              </li>
-                              <li class="product-sidebar-brand-li">
-                                  <input type="checkbox">
-                                  <label>Nhãn hiệu 1</label>
-                              </li>
-                              <li class="product-sidebar-brand-li">
-                                  <input type="checkbox">
-                                  <label>Nhãn hiệu 1</label>
-                              </li>
-                              <li class="product-sidebar-brand-li">
-                                  <input type="checkbox">
-                                  <label>Nhãn hiệu 1</label>
-                              </li>
-                              <li class="product-sidebar-brand-li">
-                                  <input type="checkbox">
-                                  <label>Nhãn hiệu 1</label>
-                              </li>
-                          </ul>
-                      </div>
-                  </li>
-              </ul>
-          </div> 
-          <!-- End product__sidebar -->
           <div class="product__grid">
 
               <div class="product-grid__item">

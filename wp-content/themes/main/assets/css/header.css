@@ -123,9 +123,9 @@
 
 .header-middle-right__myacount{
     text-decoration: none;
-    color: var(--text-color);
+    color: var(--primary-color);
     font-size: 15px;
-    font-weight: 550;
+    font-weight: 600;
     line-height: 30px;
 }
 

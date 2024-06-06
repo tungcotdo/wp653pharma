@@ -25,36 +25,35 @@
                         <div class="footer-above__col footer-above__col--2">
                             <h3 class="footer-above__title">Văn phòng</h3>
                             <ul class="footer-above__ul">
-                                <li class="footer-above-ul__li footer-above-ul__li--padding">Pharmgy - Medical Store 507 - Union Trade Center, United States</li>
-                                <li class="footer-above-ul__li">(00) 1234 567 890</li>
-                                <li class="footer-above-ul__li">+910123456789</li>
-                                <li class="footer-above-ul__li">pharmgy@exampledemo.com</li>
+                                <li class="footer-above-ul__li footer-above-ul__li--padding">358/55/20 P. Bùi Xương Trạch, Khương Đình, Thanh Xuân, Hà Nội</li>
+                                <li class="footer-above-ul__li">0962998328</li>
+                                <li class="footer-above-ul__li">doandinh@exampledemo.com</li>
                             </ul>
                         </div>
                         <div class="footer-above__col">
                             <h3 class="footer-above__title">Thông tin</h3>
                             <ul class="footer-above__ul">
-                                <li class="footer-above-ul__li">Search</li>
-                                <li class="footer-above-ul__li">Sitemap</li>
-                                <li class="footer-above-ul__li">Privacy Policy</li>
-                                <li class="footer-above-ul__li">FAQs</li>
-                                <li class="footer-above-ul__li">Shipping</li>
+                                <li class="footer-above-ul__li">Thông Tin 1</li>
+                                <li class="footer-above-ul__li">Thông Tin 2</li>
+                                <li class="footer-above-ul__li">Thông Tin 3</li>
+                                <li class="footer-above-ul__li">Thông Tin 4</li>
+                                <li class="footer-above-ul__li">Thông Tin 5</li>
                             </ul>
                         </div>
                         <div class="footer-above__col">
                             <h3 class="footer-above__title">Giới thiệu</h3>
                             <ul class="footer-above__ul">
-                                <li class="footer-above-ul__li">Search</li>
-                                <li class="footer-above-ul__li">Sitemap</li>
-                                <li class="footer-above-ul__li">Privacy Policy</li>
-                                <li class="footer-above-ul__li">FAQs</li>
-                                <li class="footer-above-ul__li">Shipping</li>
+                                <li class="footer-above-ul__li">Giới thiệu 1</li>
+                                <li class="footer-above-ul__li">Giới thiệu 2</li>
+                                <li class="footer-above-ul__li">Giới thiệu 3</li>
+                                <li class="footer-above-ul__li">Giới thiệu 4</li>
+                                <li class="footer-above-ul__li">Giới thiệu 5</li>
                             </ul>
                         </div>
                         <div class="footer-above__col footer-above__col--2">
                             <h3 class="footer-above__title">Gửi email cho chúng tôi</h3>
                             <ul class="footer-above__ul">
-                                <li class="footer-above-ul__li footer-above-ul__li--padding">Subscribe to our latest newsletter to get news about special discounts.</li>
+                                <li class="footer-above-ul__li footer-above-ul__li--padding">Đăng ký nhận bản tin mới nhất của chúng tôi để nhận tin tức về giảm giá đặc biệt.</li>
                                 <li class="footer-above-ul__li">
                                     <form class="footer-above__form" action="">
                                         <input type="text" class="footer-above-input__email" placeholder="Nhập email ...">
@@ -69,7 +68,7 @@
             <div class="footer__below">
                 <div class="page-width">
                     <div class="footer-below__copyright">
-                        <p>© 2023, Pharmgy - Medical Store Powered By Shopify</p>
+                        <p>© 2024, Công ty cổ phần dược mỹ phẩm olympus</p>
                     </div>
                     <div class="footer-below__social">
                         <a href="#" class="footer-below-social__link"><img class="footer-below-social__icon" src="<?php echo WT_ASSET('img/social/facebook.png'); ?>" alt=""></a>

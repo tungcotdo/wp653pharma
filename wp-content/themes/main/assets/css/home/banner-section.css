@@ -72,6 +72,7 @@
 }
 
 .banner__viewbtn{
+    background-color: transparent;
     margin-top: 15px;
     font-size: 15px;
     text-decoration: underline;
@@ -79,6 +80,7 @@
     text-transform: uppercase;
     font-weight: 600;
     border: none;
+    padding: 0;
 }
 
 .banner__viewbtn:hover{

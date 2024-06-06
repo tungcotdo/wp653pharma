@@ -5,11 +5,11 @@
             <div class="slider__main swiper">
                 <div class="swiper-wrapper">
                     <div class="swiper-slide slider-main__item">
-                        <img class="slider-main__img" src="<?php echo WT_ASSET('img/slide/slide03.jpg'); ?>">
+                        <img class="slider-main__img" src="<?php echo WT_ASSET('img/slide/slide02.jpg'); ?>">
                         <div class="slider-main__content">
                             <p class="slider-main__sale">Sale 50%</p>
                             <h3 class="slider-main__title">
-                                Chăm sóc da tự nhiên
+                                Lorem ipsum dolor sit amet.
                             </h3>
                             <p class="slider-main__description">Nguyên liệu nhập ngoại</p>
                             <button class="slider-main__viewbtn">
@@ -18,11 +18,11 @@
                         </div>
                     </div>
                     <div class="swiper-slide slider-main__item">
-                        <img class="slider-main__img" src="<?php echo WT_ASSET('img/slide/slide04.jpg'); ?>">
+                        <img class="slider-main__img" src="<?php echo WT_ASSET('img/slide/slide02.jpg'); ?>">
                         <div class="slider-main__content">
                             <p class="slider-main__sale">Sale 50%</p>
                             <h3 class="slider-main__title">
-                                Chăm sóc da tự nhiên
+                                Lorem ipsum dolor sit amet.
                             </h3>
                             <p class="slider-main__description">Nguyên liệu nhập ngoại</p>
                             <button class="slider-main__viewbtn">
@@ -41,57 +41,56 @@
                     <div class="swiper-slide brand-row__item">
                         <div class="brand-row__content">
                             <div class="brand-row__thumnail">
-                                <img class="brand-row__img" src="<?php echo WT_ASSET('img/slide/slide01.jpg'); ?>">
-                            </div>
-                        </div>
-                        
-                    </div>
-                    <div class="swiper-slide brand-row__item">
-                        <div class="brand-row__content">
-                            <div class="brand-row__thumnail">
-                                <img class="brand-row__img" src="<?php echo WT_ASSET('img/product/product01.jpg'); ?>">
+                                <img class="brand-row__img" src="<?php echo WT_ASSET('img/product/product-thumnail.png'); ?>">
                             </div>
                         </div>
                     </div>
                     <div class="swiper-slide brand-row__item">
                         <div class="brand-row__content">
                             <div class="brand-row__thumnail">
-                                <img class="brand-row__img" src="<?php echo WT_ASSET('img/product/product01.jpg'); ?>">
+                                <img class="brand-row__img" src="<?php echo WT_ASSET('img/product/product-thumnail.png'); ?>">
                             </div>
                         </div>
                     </div>
                     <div class="swiper-slide brand-row__item">
                         <div class="brand-row__content">
                             <div class="brand-row__thumnail">
-                                <img class="brand-row__img" src="<?php echo WT_ASSET('img/product/product01.jpg'); ?>">
+                                <img class="brand-row__img" src="<?php echo WT_ASSET('img/product/product-thumnail.png'); ?>">
                             </div>
                         </div>
                     </div>
                     <div class="swiper-slide brand-row__item">
                         <div class="brand-row__content">
                             <div class="brand-row__thumnail">
-                                <img class="brand-row__img" src="<?php echo WT_ASSET('img/product/product01.jpg'); ?>">
+                                <img class="brand-row__img" src="<?php echo WT_ASSET('img/product/product-thumnail.png'); ?>">
                             </div>
                         </div>
                     </div>
                     <div class="swiper-slide brand-row__item">
                         <div class="brand-row__content">
                             <div class="brand-row__thumnail">
-                                <img class="brand-row__img" src="<?php echo WT_ASSET('img/product/product01.jpg'); ?>">
+                                <img class="brand-row__img" src="<?php echo WT_ASSET('img/product/product-thumnail.png'); ?>">
                             </div>
                         </div>
                     </div>
                     <div class="swiper-slide brand-row__item">
                         <div class="brand-row__content">
                             <div class="brand-row__thumnail">
-                                <img class="brand-row__img" src="<?php echo WT_ASSET('img/product/product01.jpg'); ?>">
+                                <img class="brand-row__img" src="<?php echo WT_ASSET('img/product/product-thumnail.png'); ?>">
                             </div>
                         </div>
                     </div>
                     <div class="swiper-slide brand-row__item">
                         <div class="brand-row__content">
                             <div class="brand-row__thumnail">
-                                <img class="brand-row__img" src="<?php echo WT_ASSET('img/product/product01.jpg'); ?>">
+                                <img class="brand-row__img" src="<?php echo WT_ASSET('img/product/product-thumnail.png'); ?>">
+                            </div>
+                        </div>
+                    </div>
+                    <div class="swiper-slide brand-row__item">
+                        <div class="brand-row__content">
+                            <div class="brand-row__thumnail">
+                                <img class="brand-row__img" src="<?php echo WT_ASSET('img/product/product-thumnail.png'); ?>">
                             </div>
                         </div>
                     </div>
@@ -117,7 +116,7 @@
                         <span class="product-row__sale">-16%</span>
                         <div class="product-row__content">
                             <div class="product-row__thumnail">
-                                <img class="product-row__img" src="<?php echo WT_ASSET('img/slide/slide01.jpg'); ?>">
+                                <img class="product-row__img" src="<?php echo WT_ASSET('img/product/product-thumnail.png'); ?>">
                             </div>
                             <h3 class="product-row__title">Lorem ipsum dolor sit amet.</h3>
                             <div class="product-row__price">
@@ -134,7 +133,7 @@
                         <span class="product-row__sale">-16%</span>
                         <div class="product-row__content">
                             <div class="product-row__thumnail">
-                                <img class="product-row__img" src="<?php echo WT_ASSET('img/product/product01.jpg'); ?>">
+                                <img class="product-row__img" src="<?php echo WT_ASSET('img/product/product-thumnail.png'); ?>">
                             </div>
                             <h3 class="product-row__title">Lorem ipsum dolor sit amet.</h3>
                             <div class="product-row__price">
@@ -150,7 +149,7 @@
                         <span class="product-row__sale">-16%</span>
                         <div class="product-row__content">
                             <div class="product-row__thumnail">
-                                <img class="product-row__img" src="<?php echo WT_ASSET('img/product/product01.jpg'); ?>">
+                                <img class="product-row__img" src="<?php echo WT_ASSET('img/product/product-thumnail.png'); ?>">
                             </div>
                             <h3 class="product-row__title">Lorem ipsum dolor sit amet.</h3>
                             <div class="product-row__price">
@@ -166,7 +165,7 @@
                         <span class="product-row__sale">-16%</span>
                         <div class="product-row__content">
                             <div class="product-row__thumnail">
-                                <img class="product-row__img" src="<?php echo WT_ASSET('img/product/product01.jpg'); ?>">
+                                <img class="product-row__img" src="<?php echo WT_ASSET('img/product/product-thumnail.png'); ?>">
                             </div>
                             <h3 class="product-row__title">Lorem ipsum dolor sit amet.</h3>
                             <div class="product-row__price">
@@ -182,7 +181,7 @@
                         <span class="product-row__sale">-16%</span>
                         <div class="product-row__content">
                             <div class="product-row__thumnail">
-                                <img class="product-row__img" src="<?php echo WT_ASSET('img/product/product01.jpg'); ?>">
+                                <img class="product-row__img" src="<?php echo WT_ASSET('img/product/product-thumnail.png'); ?>">
                             </div>
                             <h3 class="product-row__title">Lorem ipsum dolor sit amet.</h3>
                             <div class="product-row__price">
@@ -198,7 +197,7 @@
                         <span class="product-row__sale">-16%</span>
                         <div class="product-row__content">
                             <div class="product-row__thumnail">
-                                <img class="product-row__img" src="<?php echo WT_ASSET('img/product/product01.jpg'); ?>">
+                                <img class="product-row__img" src="<?php echo WT_ASSET('img/product/product-thumnail.png'); ?>">
                             </div>
                             <h3 class="product-row__title">Lorem ipsum dolor sit amet.</h3>
                             <div class="product-row__price">
@@ -214,7 +213,7 @@
                         <span class="product-row__sale">-16%</span>
                         <div class="product-row__content">
                             <div class="product-row__thumnail">
-                                <img class="product-row__img" src="<?php echo WT_ASSET('img/product/product01.jpg'); ?>">
+                                <img class="product-row__img" src="<?php echo WT_ASSET('img/product/product-thumnail.png'); ?>">
                             </div>
                             <h3 class="product-row__title">Lorem ipsum dolor sit amet.</h3>
                             <div class="product-row__price">
@@ -230,7 +229,7 @@
                         <span class="product-row__sale">-16%</span>
                         <div class="product-row__content">
                             <div class="product-row__thumnail">
-                                <img class="product-row__img" src="<?php echo WT_ASSET('img/product/product01.jpg'); ?>">
+                                <img class="product-row__img" src="<?php echo WT_ASSET('img/product/product-thumnail.png'); ?>">
                             </div>
                             <h3 class="product-row__title">Lorem ipsum dolor sit amet.</h3>
                             <div class="product-row__price">
@@ -249,11 +248,11 @@
 
         <section class="banner__section">
             <div class="banner__item">
-                <img class="banner__img" src="<?php echo WT_ASSET('img/slide/slide01.jpg'); ?>">
+                <img class="banner__img" src="<?php echo WT_ASSET('img/product/product-thumnail1.png'); ?>">
                 <div class="banner__content">
                     <p class="banner__sale">Sale 50%</p>
                     <h3 class="banner__title">
-                        Chăm sóc da tự nhiên
+                        Lorem ipsum dolor sit amet.
                     </h3>
                     <button class="banner__viewbtn">
                         xem chi tiết
@@ -261,11 +260,11 @@
                 </div>
             </div>
             <div class="banner__item">
-                <img class="banner__img" src="<?php echo WT_ASSET('img/slide/slide01.jpg'); ?>">
+                <img class="banner__img" src="<?php echo WT_ASSET('img/product/product-thumnail1.png'); ?>">
                 <div class="banner__content">
                     <p class="banner__sale">Sale 50%</p>
                     <h3 class="banner__title">
-                        Chăm sóc da tự nhiên
+                        Lorem ipsum dolor sit amet.
                     </h3>
                     <button class="banner__viewbtn">
                         xem chi tiết
@@ -273,11 +272,11 @@
                 </div>
             </div>
             <div class="banner__item">
-                <img class="banner__img" src="<?php echo WT_ASSET('img/slide/slide01.jpg'); ?>">
+                <img class="banner__img" src="<?php echo WT_ASSET('img/product/product-thumnail1.png'); ?>">
                 <div class="banner__content">
                     <p class="banner__sale">Sale 50%</p>
                     <h3 class="banner__title">
-                        Chăm sóc da tự nhiên
+                        Lorem ipsum dolor sit amet.
                     </h3>
                     <button class="banner__viewbtn">
                         xem chi tiết
@@ -302,7 +301,7 @@
                     <div class="swiper-slide post-row__item">
                         <div class="post-row__content">
                             <div class="post-row__thumnail">
-                                <img class="post-row__img" src="<?php echo WT_ASSET('img/slide/slide01.jpg'); ?>">
+                                <img class="post-row__img" src="<?php echo WT_ASSET('img/product/product-thumnail1.png'); ?>">
                             </div>
                             <p class="post-row__date">30-12-2022</p>
                             <h3 class="post-row__title">Lorem ipsum dolor sit amet.</h3>
@@ -316,7 +315,7 @@
                     <div class="swiper-slide post-row__item">
                         <div class="post-row__content">
                             <div class="post-row__thumnail">
-                                <img class="post-row__img" src="<?php echo WT_ASSET('img/post/post01.jpg'); ?>">
+                                <img class="post-row__img" src="<?php echo WT_ASSET('img/product/product-thumnail1.png'); ?>">
                             </div>
                             <p class="post-row__date">30-12-2022</p>
                             <h3 class="post-row__title">Lorem ipsum dolor sit amet.</h3>
@@ -329,7 +328,7 @@
                     <div class="swiper-slide post-row__item">
                         <div class="post-row__content">
                             <div class="post-row__thumnail">
-                                <img class="post-row__img" src="<?php echo WT_ASSET('img/post/post01.jpg'); ?>">
+                                <img class="post-row__img" src="<?php echo WT_ASSET('img/product/product-thumnail1.png'); ?>">
                             </div>
                             <p class="post-row__date">30-12-2022</p>
                             <h3 class="post-row__title">Lorem ipsum dolor sit amet.</h3>
@@ -342,7 +341,7 @@
                     <div class="swiper-slide post-row__item">
                         <div class="post-row__content">
                             <div class="post-row__thumnail">
-                                <img class="post-row__img" src="<?php echo WT_ASSET('img/post/post01.jpg'); ?>">
+                                <img class="post-row__img" src="<?php echo WT_ASSET('img/product/product-thumnail1.png'); ?>">
                             </div>
                             <p class="post-row__date">30-12-2022</p>
                             <h3 class="post-row__title">Lorem ipsum dolor sit amet.</h3>
@@ -355,7 +354,7 @@
                     <div class="swiper-slide post-row__item">
                         <div class="post-row__content">
                             <div class="post-row__thumnail">
-                                <img class="post-row__img" src="<?php echo WT_ASSET('img/post/post01.jpg'); ?>">
+                                <img class="post-row__img" src="<?php echo WT_ASSET('img/product/product-thumnail1.png'); ?>">
                             </div>
                             <p class="post-row__date">30-12-2022</p>
                             <h3 class="post-row__title">Lorem ipsum dolor sit amet.</h3>
@@ -368,7 +367,7 @@
                     <div class="swiper-slide post-row__item">
                         <div class="post-row__content">
                             <div class="post-row__thumnail">
-                                <img class="post-row__img" src="<?php echo WT_ASSET('img/post/post01.jpg'); ?>">
+                                <img class="post-row__img" src="<?php echo WT_ASSET('img/product/product-thumnail1.png'); ?>">
                             </div>
                             <p class="post-row__date">30-12-2022</p>
                             <h3 class="post-row__title">Lorem ipsum dolor sit amet.</h3>
@@ -381,7 +380,7 @@
                     <div class="swiper-slide post-row__item">
                         <div class="post-row__content">
                             <div class="post-row__thumnail">
-                                <img class="post-row__img" src="<?php echo WT_ASSET('img/post/post01.jpg'); ?>">
+                                <img class="post-row__img" src="<?php echo WT_ASSET('img/product/product-thumnail1.png'); ?>">
                             </div>
                             <p class="post-row__date">30-12-2022</p>
                             <h3 class="post-row__title">Lorem ipsum dolor sit amet.</h3>
@@ -394,7 +393,7 @@
                     <div class="swiper-slide post-row__item">
                         <div class="post-row__content">
                             <div class="post-row__thumnail">
-                                <img class="post-row__img" src="<?php echo WT_ASSET('img/post/post01.jpg'); ?>">
+                                <img class="post-row__img" src="<?php echo WT_ASSET('img/product/product-thumnail1.png'); ?>">
                             </div>
                             <p class="post-row__date">30-12-2022</p>
                             <h3 class="post-row__title">Lorem ipsum dolor sit amet.</h3>

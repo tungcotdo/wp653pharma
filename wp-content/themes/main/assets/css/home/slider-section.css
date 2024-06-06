@@ -83,7 +83,7 @@
 
 @media (min-width: 768px) {
     .slider-main__img {
-        height: 370px;
+        height: 400px;
     }
     
     .slider-main__sale{
@@ -109,7 +109,7 @@
 
 @media (min-width: 992px) {
     .slider__section{
-        height: 370px;
+        height: 400px;
         display: flex;
         justify-content: space-between;
         gap: 15px;
@@ -174,7 +174,7 @@
 
 @media (min-width: 992px) {
     .slider__next{
-        height: 370px;
+        height: 400px;
         width: 30%;
         flex-direction: column;
         justify-content: space-between;
