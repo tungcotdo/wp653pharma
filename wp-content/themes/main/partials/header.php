@@ -75,10 +75,10 @@
                     <div class="header-middle-right__item">
                         <img class="header-middle-right__icon" src="<?php echo WT_ASSET('img/icon/user.png'); ?>">
                     </div>
-                    <!-- <div class="header-middle-right__item header-middle-right__item--cart">
+                    <div class="header-middle-right__item header-middle-right__item--cart">
                         <img class="header-middle-right__icon header-middle-right__icon--cart" src="<?php echo WT_ASSET('img/icon/cart.png'); ?>">
                         <span class="header-middle-right-cart__notification">3</span>
-                    </div> -->
+                    </div>
                     <div class="header-middle-right__item header-middle-right__item--sm">
                         <img class="header-middle-right__icon header-middle-right__icon--menu" src="<?php echo WT_ASSET('img/icon/bar.png'); ?>">
                     </div>
