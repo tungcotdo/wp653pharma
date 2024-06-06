@@ -1,101 +1,230 @@
-
-      <footer class="footer">
-        <div class="container">
-          <div class="footer-map">
-            <iframe class="footer-map__iframe" frameborder="0" scrolling="no" marginheight="0" marginwidth="0" src="https://maps.google.com/maps?width=100%25&amp;height=400&amp;hl=en&amp;q=Vinhome%20ocearn%20park+(Victory%20Era%20Travel%20Company)&amp;t=&amp;z=14&amp;ie=UTF8&amp;iwloc=B&amp;output=embed">
-              <a href="https://www.gps.ie/">gps trackers</a>
-            </iframe>
-            <p class="footer__text text-center">Copyright © 2024 Victory Era Travel Company</p>
-          </div>
-          <div class="footer-info">
-            <div class="footer-info__company">
-              <h3 class="footer-info__h3">Victory Era Travel Company</h3>
-              <p class="footer__text">Address: 2nd Floor, 02SH08 - S101 Building, Vinhomes Ocean Park, Gia Lam, Ha Noi</p>
-            </div>
-            <section class="footer__links">
-              <nav class="footer-nav">
-                <a href="#" class="footer-nav__link">Hotline: +84867032865</a>
-                <a href="#" class="footer-nav__link">Email: booking@victorytravel.info</a>
-                <a href="#" class="footer-nav__link">Work Time: Mon-Sun 8:00 - 21:00</a>
-                <div class="footer__social">
-                  <a href="#"><img class="footer__social-item" src="<?php echo WT_ASSET('img/footer/social1.png');?>" alt="social1.png"></a>
-                  <a href="#"><img class="footer__social-item" src="<?php echo WT_ASSET('img/footer/social2.png');?>" alt="social2.png"></a>
-                  <a href="#"><img class="footer__social-item" src="<?php echo WT_ASSET('img/footer/social3.png');?>" alt="social3.png"></a>
-                  <a href="#"><img class="footer__social-item" src="<?php echo WT_ASSET('img/footer/social4.png');?>" alt="social4.png"></a>
-                  <a href="#"><img class="footer__social-item" src="<?php echo WT_ASSET('img/footer/social5.png');?>" alt="social5.png"></a>
+        <footer class="footer">
+            <section class="service__section">
+                <div class="service__row">
+                    <div class="service-row__item service-row__item--separate">
+                        <img src="<?php echo WT_ASSET('img/icon/fast-delivery'); ?>.png'); ?>" alt="" class="service-row-item__icon">
+                        <h3 class="service-row-item__text">Miễn phí vận chuyển</h3>
+                    </div>
+                    <div class="service-row__item service-row__item--separate">
+                        <img src="<?php echo WT_ASSET('img/icon/percent.png'); ?>" alt="" class="service-row-item__icon">
+                        <h3 class="service-row-item__text">khuyến mại lên đến 50%</h3>
+                    </div>
+                    <div class="service-row__item service-row__item--separate">
+                        <img src="<?php echo WT_ASSET('img/icon/save-money'); ?>.png'); ?>" alt="" class="service-row-item__icon">
+                        <h3 class="service-row-item__text">Voucher 10%</h3>
+                    </div>
+                    <div class="service-row__item">
+                        <img src="<?php echo WT_ASSET('img/icon/gift.png'); ?>" alt="" class="service-row-item__icon">
+                        <h3 class="service-row-item__text">Tích điểm nhận quà</h3>
+                    </div>
                 </div>
-              </nav>
-              <nav class="footer-nav">
-                <a href="<?php echo home_url('/').'?s=&c=vietnam-package';?>" class="footer-nav__link footer-nav__link--hover">Vietnam package</a>
-                <a href="<?php echo home_url('/').'?s=&c=northern-vietnam';?>" class="footer-nav__link footer-nav__link--hover">Northern Vietnam</a>
-                <a href="<?php echo home_url('/').'?s=&c=central-vietnam';?>" class="footer-nav__link footer-nav__link--hover">Central Vietnam</a>
-                <a href="<?php echo home_url('/').'?s=&c=southern-vietnam';?>" class="footer-nav__link footer-nav__link--hover">Southern Vietnam</a>
-              </nav>
-              <nav class="footer-nav">
-                <a href="<?php echo home_url('/');?>" class="footer-nav__link footer-nav__link--hover">Home</a>
-                <a href="<?php echo home_url('/').'?p=45'; ?>" class="footer-nav__link footer-nav__link--hover">About Us</a>
-                <a href="<?php echo home_url('/').'?p=49'; ?>" class="footer-nav__link footer-nav__link--hover">Travel Guide</a>
-                <a href="<?php echo home_url('/').'?p=47'; ?>" class="footer-nav__link footer-nav__link--hover">Booking Policy</a>
-              </nav>
-            </section>
-            <section class="footer-payment">
-              <img class="footer-payment__item" src="<?php echo WT_ASSET('img/footer/payment1.png');?>" alt="payment1.png">
-              <img class="footer-payment__item" src="<?php echo WT_ASSET('img/footer/payment2.png');?>" alt="payment2.png">
-              <img class="footer-payment__item" src="<?php echo WT_ASSET('img/footer/payment3.png');?>" alt="payment3.png">
-              <img class="footer-payment__item" src="<?php echo WT_ASSET('img/footer/payment4.png');?>" alt="payment4.png">
-            </section>
-          </div>
+            </section> <!-- End service -->
+            <div class="page-width">
+                <div class="footer__above">
+                    <div class="footer-above-row">
+                        <div class="footer-above__col footer-above__col--2">
+                            <h3 class="footer-above__title">Văn phòng</h3>
+                            <ul class="footer-above__ul">
+                                <li class="footer-above-ul__li footer-above-ul__li--padding">Pharmgy - Medical Store 507 - Union Trade Center, United States</li>
+                                <li class="footer-above-ul__li">(00) 1234 567 890</li>
+                                <li class="footer-above-ul__li">+910123456789</li>
+                                <li class="footer-above-ul__li">pharmgy@exampledemo.com</li>
+                            </ul>
+                        </div>
+                        <div class="footer-above__col">
+                            <h3 class="footer-above__title">Thông tin</h3>
+                            <ul class="footer-above__ul">
+                                <li class="footer-above-ul__li">Search</li>
+                                <li class="footer-above-ul__li">Sitemap</li>
+                                <li class="footer-above-ul__li">Privacy Policy</li>
+                                <li class="footer-above-ul__li">FAQs</li>
+                                <li class="footer-above-ul__li">Shipping</li>
+                            </ul>
+                        </div>
+                        <div class="footer-above__col">
+                            <h3 class="footer-above__title">Giới thiệu</h3>
+                            <ul class="footer-above__ul">
+                                <li class="footer-above-ul__li">Search</li>
+                                <li class="footer-above-ul__li">Sitemap</li>
+                                <li class="footer-above-ul__li">Privacy Policy</li>
+                                <li class="footer-above-ul__li">FAQs</li>
+                                <li class="footer-above-ul__li">Shipping</li>
+                            </ul>
+                        </div>
+                        <div class="footer-above__col footer-above__col--2">
+                            <h3 class="footer-above__title">Gửi email cho chúng tôi</h3>
+                            <ul class="footer-above__ul">
+                                <li class="footer-above-ul__li footer-above-ul__li--padding">Subscribe to our latest newsletter to get news about special discounts.</li>
+                                <li class="footer-above-ul__li">
+                                    <form class="footer-above__form" action="">
+                                        <input type="text" class="footer-above-input__email" placeholder="Nhập email ...">
+                                        <input type="submit" class="footer-above-input__submit" value="Đăng ký">
+                                    </form>
+                                </li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="footer__below">
+                <div class="page-width">
+                    <div class="footer-below__copyright">
+                        <p>© 2023, Pharmgy - Medical Store Powered By Shopify</p>
+                    </div>
+                    <div class="footer-below__social">
+                        <a href="#" class="footer-below-social__link"><img class="footer-below-social__icon" src="<?php echo WT_ASSET('img/social/facebook.png'); ?>" alt=""></a>
+                        <a href="#" class="footer-below-social__link"><img class="footer-below-social__icon" src="<?php echo WT_ASSET('img/social/youtube.png'); ?>" alt=""></a>
+                        <a href="#" class="footer-below-social__link"><img class="footer-below-social__icon" src="<?php echo WT_ASSET('img/social/gmail.png'); ?>" alt=""></a>
+                    </div>
+                </div>
+            </div>
+        </footer>
+        
+        <!-- Modal search layout -->
+        <div class="modal" id="modal__search">
+            <div class="modal__overlay"></div>
+            <div class="modal__content">
+                <div class="modal__header">
+                    <div class="modal__width">
+                        <h3 class="modal__title">Tìm kiếm sản phẩm</h3>
+                        <img class="modal__clsicon" src="<?php echo WT_ASSET('img/icon/close.png'); ?>">
+                    </div>
+                </div>
+                <div class="modal__body">
+                    <div class="modal__width">
+                        <form action="" class="modal-search__form">
+                            <input type="text" class="modal-search-form__input" placeholder="Nhập thông tin sản phẩm ...">
+                            <button class="modal-search-form__submit">TÌM KIẾM</button>
+                        </form>
+                    </div>
+                </div>
+            </div>
         </div>
-      </footer>
-    </div>
 
-    <?php require WT_PARTIALS( 'contact-button.php' )?>
+        <!-- Modal category layout -->
+        <div class="modal" id="modal__category">
+            <div class="modal__overlay"></div>
+            <div class="modal__content--left">
+                <div class="modal__header">
+                    <div class="modal__width">
+                        <h3 class="modal__title">Danh mục sản phẩm</h3>
+                        <img class="modal__clsicon" src="<?php echo WT_ASSET('img/icon/close.png'); ?>">
+                    </div>
+                </div>
 
-    <!-- Modal loading page -->
-    <div class="modal" id="modal__loading">
-        <div class="modal__overlay"></div>
-        <div class="modal__content modal__content--loading">
-            <div class="loader"></div>
-            <div class="loading__title">Processing ...<br>Please do not close the browser</div>
+                <div class="modal__body">
+                    <div class="modal__width">
+                        <ul class="modal-body__ul">
+                            <li class="modal-body__li"><a href="" class="modal-body__a">Thực phẩm dành cho người già</a></li>
+                            <li class="modal-body__li"><a href="" class="modal-body__a">Thực phẩm dành cho người trung tuổi</a></li>
+                            <li class="modal-body__li"><a href="" class="modal-body__a">Thực phẩm dành cho trẻ em</a></li>
+                            <li class="modal-body__li"><a href="" class="modal-body__a">Thực phẩm chăm sóc sắc đẹp</a></li>
+                            <li class="modal-body__li"><a href="" class="modal-body__a">Thực phẩm tăng cường sinh lý</a></li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
         </div>
-    </div>
-    
-    <script src="<?php echo WT_ASSET('js/main.js');?>"></script>
-    <!-- Swiper JS -->
-    <script src="<?php echo WT_ASSET('js/swiper.js');?>"></script>
 
-    <!-- Initialize Swiper -->
-    <script>
-      var swiper = new Swiper(".section__swiper--three", {
-        slidesPerView: 3,
-        spaceBetween: 30,
-        autoplay: {
-          delay: 2500,
-          disableOnInteraction: false,
-        },
-        breakpoints: {
-          // when window width is >= 320px
-          320: {
-            slidesPerView: 1,
-            spaceBetween: 30
-          },
-          // when window width is >= 992px
-          992: {
-            slidesPerView: 2,
-            spaceBetween: 30
-          },
-          // when window width is >= 1200px
-          1200: {
-            slidesPerView: 3,
-            spaceBetween: 30
-          }
-        },
-        navigation: {
-          nextEl: ".section-navslide__btn--next",
-          prevEl: ".section-navslide__btn--previous",
-        }
-      
-      });
-    </script> 
-  </body>
+        <!-- Modal menu layout -->
+        <div class="modal" id="modal__menu">
+            <div class="modal__overlay"></div>
+            <div class="modal__content--right">
+                <div class="modal__header">
+                    <div class="modal__width">
+                        <h3 class="modal__title">Menu</h3>
+                        <img class="modal__clsicon" src="<?php echo WT_ASSET('img/icon/close.png'); ?>">
+                    </div>
+                </div>
+                <div class="modal__body">
+                    <div class="modal__width">
+                        <ul class="modal-body__ul">
+                            <li class="modal-body__li"><a href="" class="modal-body__a">Menu 1</a></li>
+                            <li class="modal-body__li"><a href="" class="modal-body__a">Menu 2</a></li>
+                            <li class="modal-body__li"><a href="" class="modal-body__a">Menu 3</a></li>
+                            <li class="modal-body__li"><a href="" class="modal-body__a">Menu 4</a></li>
+                            <li class="modal-body__li"><a href="" class="modal-body__a">Menu 5</a></li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <!-- Modal cart layout -->
+        <div class="modal" id="modal__cart">
+            <div class="modal__overlay"></div>
+            <div class="modal__content--right">
+                <div class="modal__header">
+                    <div class="modal__width">
+                        <h3 class="modal__title">Giỏ hàng của bạn</h3>
+                        <img class="modal__clsicon" src="<?php echo WT_ASSET('img/icon/close.png'); ?>">
+                    </div>
+                </div>
+
+                <div class="modal__body">
+                    <div class="modal__width">
+                        <ul class="modal-body__ul">
+                            <li class="modal-body__li">
+                                <a href="" class="modal-body__a modal-body__a--cart">
+                                    <img class="modal-body-cart__deleteicon" title="Xoá sản phẩm" src="<?php echo WT_ASSET('img/icon/delete.png'); ?>" alt="">
+                                    <img class="modal-body-cart__thumnail" src="<?php echo WT_ASSET('img/product/product01.jpg'); ?>" alt="">
+                                    <div class="modal-body-cart__content">
+                                        <h3 class="modal-body-cart-content__title">Thực phẩm dành cho người già</h3>
+                                        <p class="modal-body-cart-content__price">Giá: 240.000 đ</p>
+                                    </div>
+                                </a>
+                            </li>
+                            <li class="modal-body__li">
+                                <a href="" class="modal-body__a modal-body__a--cart">
+                                    <img class="modal-body-cart__deleteicon" title="Xoá sản phẩm" src="<?php echo WT_ASSET('img/icon/delete.png'); ?>" alt="">
+                                    <img class="modal-body-cart__thumnail" src="<?php echo WT_ASSET('img/product/product01.jpg'); ?>" alt="">
+                                    <div class="modal-body-cart__content">
+                                        <h3 class="modal-body-cart-content__title">Thực phẩm dành cho người trung tuổi</h3>
+                                        <p class="modal-body-cart-content__price">Giá: 240.000 đ</p>
+                                    </div>
+                                </a>
+                            </li>
+                            <li class="modal-body__li">
+                                <a href="" class="modal-body__a modal-body__a--cart">
+                                    <img class="modal-body-cart__deleteicon" title="Xoá sản phẩm" src="<?php echo WT_ASSET('img/icon/delete.png'); ?>" alt="">
+                                    <img class="modal-body-cart__thumnail" src="<?php echo WT_ASSET('img/product/product01.jpg'); ?>" alt="">
+                                    <div class="modal-body-cart__content">
+                                        <h3 class="modal-body-cart-content__title">Thực phẩm dành cho trẻ em</h3>
+                                        <p class="modal-body-cart-content__price">Giá: 240.000 đ</p>
+                                    </div>
+                                </a>
+                            </li>
+
+                        </ul>
+                    </div>
+                </div>
+
+                <div class="modal__footer">
+                    <div class="modal-footer__cart modal__width">
+                        <div class="modal-footer-cart__top">
+                            <div class="modal-footer-cart-top__total">
+                                <label class="modal-footer-cart__label">Số lượng:</label>
+                                <span class="modal-footer-cart__value">3</span>
+                            </div>
+                            <div class="modal-footer-cart-top__price">
+                                <label class="modal-footer-cart__label">Giá:</label>
+                                <span class="modal-footer-cart__value">200.000 đ</span>
+                            </div>
+                        </div>
+                        <div class="modal-footer-cart__bottom">
+                            <button class="modal-footer-cart-bottom__btn modal-footer-cart-bottom__btn--view">Xem giỏ hàng</button>
+                            <button class="modal-footer-cart-bottom__btn modal-footer-cart-bottom__btn--checkout">Thanh toán</button>
+                        </div>
+                    </div>
+                </div>
+
+            </div>
+        </div>
+    </div> <!-- Wrapper -->
+
+    <script src="<?php echo WT_ASSET('js/swiper-bundle.min.js'); ?>"></script>
+    <script src="<?php echo WT_ASSET('js/swiper-config.js'); ?>"></script>
+    <script src="<?php echo WT_ASSET('js/modal.js'); ?>"></script>
+    <script src="<?php echo WT_ASSET('js/main.js'); ?>"></script>
+</body>
 </html>

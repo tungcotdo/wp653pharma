@@ -1,64 +1,142 @@
 <!DOCTYPE html>
 <html lang="en">
-  <head>
-    <meta charset="UTF-8" />
-    <meta name="viewport" content="width=device-width, initial-scale=1, minimum-scale=1, maximum-scale=1" />
+<head>
 
-    <title>Victory Era Travel Company</title>
-
-    <link rel="stylesheet" href="<?php echo WT_ASSET('css/swiper.css'); ?>" />
-    <link rel="stylesheet" href="<?php echo WT_ASSET('css/reset.css'); ?>" />
-    <link rel="stylesheet" href="<?php echo WT_ASSET('css/define.css'); ?>" />
-    <link rel="stylesheet" href="<?php echo WT_ASSET('css/font.css'); ?>" />
-    <link rel="stylesheet" href="<?php echo WT_ASSET('css/modal.css'); ?>" />
-    <link rel="stylesheet" href="<?php echo WT_ASSET('css/style.css'); ?>" />
-    <link rel="stylesheet" href="<?php echo WT_ASSET('css/button.css'); ?>" />
-  </head>
-  <body>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
     
-    <div class="web <?php echo !empty( $_webInvert ) ? 'web--invert' : ''; ?>" id="web">
-      <header class="header" id="header">
-        <div class="container">
-          <div class="header__top">
+    <title>Ecommerce</title>
 
-            <div class="header-icons">
-              <a href="<?php echo home_url('/');?>"><img class="header-icons__logo" src="<?php echo WT_ASSET('img/header/Logo.png');?>" alt="img/header/Logo.png"/></a>
-              <img class="header-icons__bar" id="header-icons__bar" src="<?php echo WT_ASSET('img/icon/bar.png');?>" alt="img/icon/close.png">
-              <img class="header-icons__cls" id="header-icons__cls" src="<?php echo WT_ASSET('img/icon/close.png');?>" alt="img/icon/close.png">
-            </div>
-            <div class="header__menu" id="header__menu">
+    <link rel="stylesheet" href="<?php echo WT_ASSET('css/swiper-bundle.min.css'); ?>">
+    <link rel="stylesheet" href="<?php echo WT_ASSET('css/reset.css'); ?>">
+    <link rel="stylesheet" href="<?php echo WT_ASSET('css/base.css'); ?>">
+    <link rel="stylesheet" href="<?php echo WT_ASSET('css/header.css'); ?>">
+    <link rel="stylesheet" href="<?php echo WT_ASSET('css/home/slider-section.css'); ?>">
+    <link rel="stylesheet" href="<?php echo WT_ASSET('css/home/banner-section.css'); ?>">
+    <link rel="stylesheet" href="<?php echo WT_ASSET('css/product-section.css'); ?>">
+    <link rel="stylesheet" href="<?php echo WT_ASSET('css/product/product.css'); ?>">
+    <link rel="stylesheet" href="<?php echo WT_ASSET('css/home/brand-section.css'); ?>">
+    <link rel="stylesheet" href="<?php echo WT_ASSET('css/home/post-section.css'); ?>">
+    <link rel="stylesheet" href="<?php echo WT_ASSET('css/footer.css'); ?>">
+    <link rel="stylesheet" href="<?php echo WT_ASSET('css/modal.css'); ?>">
+    <link rel="stylesheet" href="<?php echo WT_ASSET('css/main.css'); ?>">
 
-              <nav class="header-nav" id="header-nav">
-                <a class="header-nav__link" href="<?php echo home_url('/');?>">Home</a>
-                <div class="header-nav__group">
-                  <a class="header-nav__link" href="<?php echo home_url('/').'?s=';?>">Tours in Vietnam</a>
-                  <nav class="header-nav__sub">
-                    <a class="header-nav__link" href="<?php echo home_url('/').'?s=&c=vietnam-package';?>">Vietname Package</a>
-                    <a class="header-nav__link" href="<?php echo home_url('/').'?s=&c=southern-vietnam';?>">Southen Tour</a>
-                    <a class="header-nav__link" href="<?php echo home_url('/').'?s=&c=northern-vietnam';?>">Nothern Tour</a>
-                    <a class="header-nav__link" href="<?php echo home_url('/').'?s=&c=central-vietnam';?>">Central Tour</a>
-                  </nav>
+</head>
+
+<body>
+    <div class="wrapper">
+        <header class="header">
+            <div class="header__top">
+                <div class="page-width">
+                    <ul class="header-top__ul">
+                        <!-- <li class="header-top__li">
+                            <select class="header-top__select">
+                                <option value="">VND</option>
+                                <option value="">USD</option>
+                            </select>
+                        </li>
+                        <li class="header-top__li">
+                            <select class="header-top__select">
+                                <option value="">VI</option>
+                                <option value="">US</option>
+                                <option value="">UK</option>
+                            </select>
+                        </li> -->
+                        <li class="header-top__li">Công ty cổ phần dược mỹ phẩm olympus</li>
+                    </ul>
+    
+                    <ul class="header-top__ul header-top__ul--sm">
+                        <li class="header-top__li">Hotline 0962998328</li>
+                    </ul>
                 </div>
-                <a class="header-nav__link" href="<?php echo home_url('/').'?p=49'; ?>">Travel Guide</a>
-                <a class="header-nav__link" href="<?php echo home_url('/').'?p=47'; ?>">Booking Policy</a>
-                <a class="header-nav__link" href="<?php echo home_url('/').'?p=45'; ?>">About Us</a>
-              </nav>
-
-              <form class="header-search" action="<?php echo home_url('/');?>">
-                <?php
-                    $search_value = !empty( $_GET['s'] ) ? $_GET['s'] : '';
-                ?>
-                <input class="header-search__input" name="s" value="<?php echo $search_value; ?>" type="text" placeholder="Where do you want to go?">
-                <button class="header-search__btn"><img class="header-search__icon" src="<?php echo WT_ASSET('img/header/search-icon.png');?>" alt="search-icon.png"></button>
-              </form>
-
             </div>
-          </div>
-          <?php if( empty( $_webInvert ) ): ?>
-            <div class="header-banner">
-              <h1 class="header-banner__title">Dược phẩm Olympus</h1>
-              <p class="header-banner__text">Trao giá trị sống đích thực</p>
+
+            <div class="header__middle page-width">
+                <div class="header-middle__logo">
+                    <img src="<?php echo WT_ASSET('img/olympus-logo.png'); ?>" class="header-middle-logo__img" alt="logo">
+                </div>
+                <div class="header-middle__search">
+                    <form action="<?php echo home_url('/');?>" class="header-middle-search__form">
+                        <?php
+                            $search_value = !empty( $_GET['s'] ) ? $_GET['s'] : '';
+                        ?>
+                        <input type="text" class="header-middle-search-form__input" placeholder="Tìm kiếm các sản phẩm ..." name="s" value="<?php echo $search_value; ?>">
+                        <button class="header-middle-search-form__submit">TÌM KIẾM</button>
+                    </form>
+                </div>
+                <div class="header-middle__right">
+                    <div class="header-middle-right__item header-middle-right__item--myaccount header-middle-right__item--xl">
+                        <a href="#" class="header-middle-right__myacount">Tài khoản của tôi</a>
+                    </div>
+                    <div class="header-middle-right__item header-middle-right__item--sm">
+                        <img class="header-middle-right__icon header-middle-right__icon--search" src="<?php echo WT_ASSET('img/icon/search.png'); ?>">
+                    </div>
+                    <div class="header-middle-right__item">
+                        <img class="header-middle-right__icon" src="<?php echo WT_ASSET('img/icon/user.png'); ?>">
+                    </div>
+                    <!-- <div class="header-middle-right__item header-middle-right__item--cart">
+                        <img class="header-middle-right__icon header-middle-right__icon--cart" src="<?php echo WT_ASSET('img/icon/cart.png'); ?>">
+                        <span class="header-middle-right-cart__notification">3</span>
+                    </div> -->
+                    <div class="header-middle-right__item header-middle-right__item--sm">
+                        <img class="header-middle-right__icon header-middle-right__icon--menu" src="<?php echo WT_ASSET('img/icon/bar.png'); ?>">
+                    </div>
+                </div>
             </div>
-          <?php endif; ?>
-        </div>
-      </header>
+
+            <nav class="header__nav">
+                <div class="page-width">
+                    <div class="header-nav__category">
+                        <button class="header-nav__catbtn" id="header-nav__catbtn">
+                            <img class="header-nav-category__icon" src="<?php echo WT_ASSET('img/icon/category.png'); ?>">
+                            <span class="header-nav-category__text">Danh mục sản phẩm</span>
+                        </button>
+                    </div>
+                    
+                    <ul class="header-nav__ul header-nav__ul--menu header-nav__ul--lg">
+                        <li class="header-nav__li"><a class="header-nav__a" href="">Trang chủ</a></li>
+                        <li class="header-nav__li"><a class="header-nav__a" href="">Sản phẩm</a></li>
+                        <li class="header-nav__li"><a class="header-nav__a" href="">Tin tức</a></li>
+                        <li class="header-nav__li"><a class="header-nav__a" href="">Giới thiệu</a></li>
+                        <li class="header-nav__li"><a class="header-nav__a" href="">Liên hệ</a></li>
+                    </ul>
+
+                    <ul class="header-nav__ul header-nav__ul--freeship">
+                        <li class="header-nav__li">Free ship với đơn từ <span class="header-nav-ul-freeship__value">100.000 đ +</span></li>
+                    </ul>
+                </div>
+            </nav>
+        </header>
+
+        <header class="header__scroll" id="header__scroll">
+            <div class="header__middle page-width">
+                <div class="header-middle__logo">
+                    <img src="<?php echo WT_ASSET('img/olympus-logo.png'); ?>" class="header-middle-logo__img" alt="logo">
+                </div>
+                <div class="header-middle__search">
+                    <form action="" class="header-middle-search__form">
+                        <input type="text" class="header-middle-search-form__input" placeholder="Tìm kiếm các sản phẩm ...">
+                        <button class="header-middle-search-form__submit">TÌM KIẾM</button>
+                    </form>
+                </div>
+                <div class="header-middle__right">
+                    <div class="header-middle-right__item header-middle-right__item--myaccount header-middle-right__item--xl">
+                        <a href="#" class="header-middle-right__myacount">Tài khoản của tôi</a>
+                    </div>
+                    <div class="header-middle-right__item header-middle-right__item--sm">
+                        <img class="header-middle-right__icon header-middle-right__icon--search" src="<?php echo WT_ASSET('img/icon/search.png'); ?>">
+                    </div>
+                    <div class="header-middle-right__item header-middle-right__item--noxl">
+                        <img class="header-middle-right__icon" src="<?php echo WT_ASSET('img/icon/user.png'); ?>">
+                    </div>
+                    <div class="header-middle-right__item header-middle-right__item--cart">
+                        <img class="header-middle-right__icon header-middle-right__icon--cart" src="<?php echo WT_ASSET('img/icon/cart.png'); ?>">
+                        <span class="header-middle-right-cart__notification">3</span>
+                    </div>
+                    <div class="header-middle-right__item header-middle-right__item--sm">
+                        <img class="header-middle-right__icon header-middle-right__icon--menu" src="<?php echo WT_ASSET('img/icon/bar.png'); ?>">
+                    </div>
+                </div>
+            </div>
+        </header>
