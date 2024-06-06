@@ -2,7 +2,7 @@
             <section class="service__section">
                 <div class="service__row">
                     <div class="service-row__item service-row__item--separate">
-                        <img src="<?php echo WT_ASSET('img/icon/fast-delivery'); ?>.png'); ?>" alt="" class="service-row-item__icon">
+                        <img src="<?php echo WT_ASSET('img/icon/fast-delivery.png'); ?>" alt="" class="service-row-item__icon">
                         <h3 class="service-row-item__text">Miễn phí vận chuyển</h3>
                     </div>
                     <div class="service-row__item service-row__item--separate">
@@ -10,7 +10,7 @@
                         <h3 class="service-row-item__text">khuyến mại lên đến 50%</h3>
                     </div>
                     <div class="service-row__item service-row__item--separate">
-                        <img src="<?php echo WT_ASSET('img/icon/save-money'); ?>.png'); ?>" alt="" class="service-row-item__icon">
+                        <img src="<?php echo WT_ASSET('img/icon/save-money.png'); ?>" alt="" class="service-row-item__icon">
                         <h3 class="service-row-item__text">Voucher 10%</h3>
                     </div>
                     <div class="service-row__item">
