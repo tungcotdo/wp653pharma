@@ -1,7 +1,7 @@
 
 /* breadcrumb */
 .breadcrumb{
-    height: 100px;
+    height: fit-content;
     display: flex;
     align-items: center;
     background-color: var(--background-color);
@@ -13,6 +13,12 @@
     font-weight: bold;
 }
 
+.breadcumb__category{
+    font-size: 14px;
+    color: var(--text-color);
+    font-style: italic;
+}
+
 /* post__detail */
 .post__date{
     font-size: 12px;
@@ -20,4 +26,14 @@
 
 .post__detail{
     font-size: 14px;
+}
+
+.footer-above-ul-li__a{
+    text-decoration: none;
+    color: var(--text-color);
+}
+
+.footer-above-ul-li__a:hover{
+    opacity: 0.7;
+    text-decoration: underline;
 }

@@ -12,6 +12,11 @@
                 </h3>
             <?php endif; ?>
 
+            <?php if( !empty( $_GET['cn'] ) ): ?>
+                <p class="breadcumb__category">
+                    Danh mục : <?php echo $_GET['cn']; ?>
+                </p>
+            <?php endif; ?>
       </div>
   </div>
 
@@ -28,12 +33,23 @@
       <div class="product">
           <div class="product__grid">
             <?php
+                $search_value = !empty( $_GET['s'] ) ? $_GET['s'] : '';
+                $cat_value = !empty( $_GET['c'] ) ? $_GET['c'] : '';
+                $catParams = !empty( $cat_value ) 
+                ? array(
+                            'taxonomy' => 'product_category',
+                            'field'    => 'slug',
+                            'terms' => $cat_value
+                        )
+                : '';
+        
                 $results = new WP_Query(array(
                     'post_type' => array(       
                         'product'                        
                     ),
                     'posts_per_page' => -1,
-                    's' => $search_value
+                    's' => $search_value,
+                    'tax_query' => array($catParams)
                 ));
             ?>
 

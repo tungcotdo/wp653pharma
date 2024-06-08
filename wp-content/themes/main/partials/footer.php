@@ -24,23 +24,25 @@
                             </ul>
                         </div>
                         <div class="footer-above__col">
-                            <h3 class="footer-above__title">Thông tin</h3>
+                            <h3 class="footer-above__title">Về chúng tôi</h3>
                             <ul class="footer-above__ul">
-                                <li class="footer-above-ul__li">Thông Tin 1</li>
-                                <li class="footer-above-ul__li">Thông Tin 2</li>
-                                <li class="footer-above-ul__li">Thông Tin 3</li>
-                                <li class="footer-above-ul__li">Thông Tin 4</li>
-                                <li class="footer-above-ul__li">Thông Tin 5</li>
+                                <?php $footer_about_us = get_field('footer_about_us', 'option'); ?>
+                                <?php if( !empty( $footer_about_us ) ): ?>
+                                    <?php foreach( $footer_about_us as $item ): ?>
+                                        <li class="footer-above-ul__li"><a class="footer-above-ul-li__a" href="<?php echo home_url('/');?>?p=<?php echo $item['id']?>"><?php echo $item['title']?></a></li>
+                                    <?php endforeach; ?>
+                                <?php endif; ?>
                             </ul>
                         </div>
                         <div class="footer-above__col">
-                            <h3 class="footer-above__title">Giới thiệu</h3>
+                            <h3 class="footer-above__title">Danh mục sản phẩm</h3>
                             <ul class="footer-above__ul">
-                                <li class="footer-above-ul__li">Giới thiệu 1</li>
-                                <li class="footer-above-ul__li">Giới thiệu 2</li>
-                                <li class="footer-above-ul__li">Giới thiệu 3</li>
-                                <li class="footer-above-ul__li">Giới thiệu 4</li>
-                                <li class="footer-above-ul__li">Giới thiệu 5</li>
+                                <?php $product_categorys = get_field('product_category', 'option'); ?>
+                                <?php if( !empty( $product_categorys ) ): ?>
+                                    <?php foreach( $product_categorys as $item ): ?>
+                                        <li class="footer-above-ul__li"><a class="footer-above-ul-li__a" href="<?php echo home_url('/');?>?s=&c=<?php echo $item['cat']?>&cn=<?php echo $item['title']?>"><?php echo $item['title']?></a></li>
+                                    <?php endforeach; ?>
+                                <?php endif; ?>
                             </ul>
                         </div>
                         <div class="footer-above__col footer-above__col--2">
@@ -109,11 +111,12 @@
                 <div class="modal__body">
                     <div class="modal__width">
                         <ul class="modal-body__ul">
-                            <li class="modal-body__li"><a href="" class="modal-body__a">Thực phẩm dành cho người già</a></li>
-                            <li class="modal-body__li"><a href="" class="modal-body__a">Thực phẩm dành cho người trung tuổi</a></li>
-                            <li class="modal-body__li"><a href="" class="modal-body__a">Thực phẩm dành cho trẻ em</a></li>
-                            <li class="modal-body__li"><a href="" class="modal-body__a">Thực phẩm chăm sóc sắc đẹp</a></li>
-                            <li class="modal-body__li"><a href="" class="modal-body__a">Thực phẩm tăng cường sinh lý</a></li>
+                            <?php $product_categorys = get_field('product_category', 'option'); ?>
+                            <?php if( !empty( $product_categorys ) ): ?>
+                                <?php foreach( $product_categorys as $item ): ?>
+                                    <li class="modal-body__li"><a href="<?php echo home_url('/');?>?s=&c=<?php echo $item['cat']?>&cn=<?php echo $item['title']?>" class="modal-body__a"><?php echo $item['title']?></a></li>
+                                <?php endforeach; ?>
+                            <?php endif; ?>
                         </ul>
                     </div>
                 </div>
@@ -141,77 +144,6 @@
                         </ul>
                     </div>
                 </div>
-            </div>
-        </div>
-
-        <!-- Modal cart layout -->
-        <div class="modal" id="modal__cart">
-            <div class="modal__overlay"></div>
-            <div class="modal__content--right">
-                <div class="modal__header">
-                    <div class="modal__width">
-                        <h3 class="modal__title">Giỏ hàng của bạn</h3>
-                        <img class="modal__clsicon" src="<?php echo WT_ASSET('img/icon/close.png'); ?>">
-                    </div>
-                </div>
-
-                <div class="modal__body">
-                    <div class="modal__width">
-                        <ul class="modal-body__ul">
-                            <li class="modal-body__li">
-                                <a href="" class="modal-body__a modal-body__a--cart">
-                                    <img class="modal-body-cart__deleteicon" title="Xoá sản phẩm" src="<?php echo WT_ASSET('img/icon/delete.png'); ?>" alt="">
-                                    <img class="modal-body-cart__thumnail" src="<?php echo WT_ASSET('img/product/product01.jpg'); ?>" alt="">
-                                    <div class="modal-body-cart__content">
-                                        <h3 class="modal-body-cart-content__title">Thực phẩm dành cho người già</h3>
-                                        <p class="modal-body-cart-content__price">Giá: 240.000 đ</p>
-                                    </div>
-                                </a>
-                            </li>
-                            <li class="modal-body__li">
-                                <a href="" class="modal-body__a modal-body__a--cart">
-                                    <img class="modal-body-cart__deleteicon" title="Xoá sản phẩm" src="<?php echo WT_ASSET('img/icon/delete.png'); ?>" alt="">
-                                    <img class="modal-body-cart__thumnail" src="<?php echo WT_ASSET('img/product/product01.jpg'); ?>" alt="">
-                                    <div class="modal-body-cart__content">
-                                        <h3 class="modal-body-cart-content__title">Thực phẩm dành cho người trung tuổi</h3>
-                                        <p class="modal-body-cart-content__price">Giá: 240.000 đ</p>
-                                    </div>
-                                </a>
-                            </li>
-                            <li class="modal-body__li">
-                                <a href="" class="modal-body__a modal-body__a--cart">
-                                    <img class="modal-body-cart__deleteicon" title="Xoá sản phẩm" src="<?php echo WT_ASSET('img/icon/delete.png'); ?>" alt="">
-                                    <img class="modal-body-cart__thumnail" src="<?php echo WT_ASSET('img/product/product01.jpg'); ?>" alt="">
-                                    <div class="modal-body-cart__content">
-                                        <h3 class="modal-body-cart-content__title">Thực phẩm dành cho trẻ em</h3>
-                                        <p class="modal-body-cart-content__price">Giá: 240.000 đ</p>
-                                    </div>
-                                </a>
-                            </li>
-
-                        </ul>
-                    </div>
-                </div>
-
-                <div class="modal__footer">
-                    <div class="modal-footer__cart modal__width">
-                        <div class="modal-footer-cart__top">
-                            <div class="modal-footer-cart-top__total">
-                                <label class="modal-footer-cart__label">Số lượng:</label>
-                                <span class="modal-footer-cart__value">3</span>
-                            </div>
-                            <div class="modal-footer-cart-top__price">
-                                <label class="modal-footer-cart__label">Giá:</label>
-                                <span class="modal-footer-cart__value">200.000 đ</span>
-                            </div>
-                        </div>
-                        <div class="modal-footer-cart__bottom">
-                            <button class="modal-footer-cart-bottom__btn modal-footer-cart-bottom__btn--view">Xem giỏ hàng</button>
-                            <button class="modal-footer-cart-bottom__btn modal-footer-cart-bottom__btn--checkout">Thanh toán</button>
-                        </div>
-                    </div>
-                </div>
-
             </div>
         </div>
     </div> <!-- Wrapper -->

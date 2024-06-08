@@ -30,3 +30,7 @@
 .brand-row__img{
     width: 100%;
 }
+
+.brand-row__img:hover{
+    opacity: 0.7;
+}
