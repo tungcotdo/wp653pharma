@@ -1,18 +1,17 @@
-<?php $_webInvert = true; ?>
 <?php require WT_PARTIALS( 'header.php' )?>
     <?php if(have_posts(  )): while (have_posts(  )): the_post(  );?>
-            <div class="body">
-                <div class="container">
-                    <div class="post">
-                        <div class="post-header">
-                            <h1 class="post-header__title"><?php echo the_title(); ?></h1>
-                            <p class="post-header__date"><?php echo the_date(); ?></p>
-                        </div>
-                        <div class="post__body">
-                            <?php echo the_content(); ?>
-                        </div>
-                    </div>
-                </div>
+        <div class="breadcrumb">
+            <div class="page-width">
+                <h3 class="breadcumb__title">
+                    <?php the_title(); ?>
+                </h3>
             </div>
-        <?php endwhile; endif; ?>
+        </div>
+        <div class="page-width">
+            <div class="post__detail">
+                <p class="post__date"><?php the_date(); ?></p>
+                <?php the_content(); ?>
+            </div> <!-- End post -->
+        </div> <!-- End page-width -->
+    <?php endwhile; endif; ?>
 <?php require WT_PARTIALS( 'footer.php' )?>

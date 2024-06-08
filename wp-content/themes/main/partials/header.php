@@ -6,7 +6,7 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     
-    <title>Ecommerce</title>
+    <title>Dược mỹ phẩm Olympus</title>
 
     <link rel="stylesheet" href="<?php echo WT_ASSET('css/swiper-bundle.min.css'); ?>">
     <link rel="stylesheet" href="<?php echo WT_ASSET('css/reset.css'); ?>">
@@ -16,8 +16,10 @@
     <link rel="stylesheet" href="<?php echo WT_ASSET('css/home/banner-section.css'); ?>">
     <link rel="stylesheet" href="<?php echo WT_ASSET('css/product-section.css'); ?>">
     <link rel="stylesheet" href="<?php echo WT_ASSET('css/product/product.css'); ?>">
+    <link rel="stylesheet" href="<?php echo WT_ASSET('css/detail.css'); ?>">
     <link rel="stylesheet" href="<?php echo WT_ASSET('css/home/brand-section.css'); ?>">
     <link rel="stylesheet" href="<?php echo WT_ASSET('css/home/post-section.css'); ?>">
+    <link rel="stylesheet" href="<?php echo WT_ASSET('css/button.css'); ?>">
     <link rel="stylesheet" href="<?php echo WT_ASSET('css/footer.css'); ?>">
     <link rel="stylesheet" href="<?php echo WT_ASSET('css/modal.css'); ?>">
     <link rel="stylesheet" href="<?php echo WT_ASSET('css/main.css'); ?>">
@@ -53,9 +55,9 @@
             </div>
 
             <div class="header__middle page-width">
-                <div class="header-middle__logo">
+                <a href="<?php echo home_url('/');?>" class="header-middle__logo">
                     <img src="<?php echo WT_ASSET('img/olympus-logo.png'); ?>" class="header-middle-logo__img" alt="logo">
-                </div>
+                </a>
                 <div class="header-middle__search">
                     <form action="<?php echo home_url('/');?>" class="header-middle-search__form">
                         <?php
@@ -93,9 +95,11 @@
                             <span class="header-nav-category__text">Danh mục sản phẩm</span>
                         </button>
                     </div>
-                    
+
+
+
                     <ul class="header-nav__ul header-nav__ul--menu header-nav__ul--lg">
-                        <li class="header-nav__li"><a class="header-nav__a" href="">Trang chủ</a></li>
+                        <li class="header-nav__li"><a class="header-nav__a" href="<?php echo home_url('/');?>">Trang chủ</a></li>
                         <li class="header-nav__li"><a class="header-nav__a" href="">Sản phẩm</a></li>
                         <li class="header-nav__li"><a class="header-nav__a" href="">Tin tức</a></li>
                         <li class="header-nav__li"><a class="header-nav__a" href="">Giới thiệu</a></li>
@@ -103,7 +107,7 @@
                     </ul>
 
                     <ul class="header-nav__ul header-nav__ul--freeship">
-                        <li class="header-nav__li">Free ship với đơn từ <span class="header-nav-ul-freeship__value">100.000 đ +</span></li>
+                        <li class="header-nav__li">Free ship với đơn từ <span class="header-nav-ul-freeship__value"><?php echo get_field('free_ship', 'option'); ?></span></li>
                     </ul>
                 </div>
             </nav>
@@ -122,21 +126,21 @@
                 </div>
                 <div class="header-middle__right">
                     <div class="header-middle-right__item header-middle-right__item--myaccount header-middle-right__item--xl">
-                        <a href="#" class="header-middle-right__myacount">Tài khoản của tôi</a>
+                        <a href="#" class="header-middle-right__myacount">Hotline 0962998328</a>
                     </div>
-                    <div class="header-middle-right__item header-middle-right__item--sm">
-                        <img class="header-middle-right__icon header-middle-right__icon--search" src="<?php echo WT_ASSET('img/icon/search.png'); ?>">
+                    <!-- <div class="header-middle-right__item header-middle-right__item--sm">
+                        <img class="header-middle-right__icon header-middle-right__icon--search" src="<?php //echo WT_ASSET('img/icon/search.png'); ?>">
                     </div>
                     <div class="header-middle-right__item header-middle-right__item--noxl">
-                        <img class="header-middle-right__icon" src="<?php echo WT_ASSET('img/icon/user.png'); ?>">
+                        <img class="header-middle-right__icon" src="<?php //echo WT_ASSET('img/icon/user.png'); ?>">
                     </div>
                     <div class="header-middle-right__item header-middle-right__item--cart">
-                        <img class="header-middle-right__icon header-middle-right__icon--cart" src="<?php echo WT_ASSET('img/icon/cart.png'); ?>">
+                        <img class="header-middle-right__icon header-middle-right__icon--cart" src="<?php //echo WT_ASSET('img/icon/cart.png'); ?>">
                         <span class="header-middle-right-cart__notification">3</span>
                     </div>
                     <div class="header-middle-right__item header-middle-right__item--sm">
-                        <img class="header-middle-right__icon header-middle-right__icon--menu" src="<?php echo WT_ASSET('img/icon/bar.png'); ?>">
-                    </div>
+                        <img class="header-middle-right__icon header-middle-right__icon--menu" src="<?php //echo WT_ASSET('img/icon/bar.png'); ?>">
+                    </div> -->
                 </div>
             </div>
         </header>

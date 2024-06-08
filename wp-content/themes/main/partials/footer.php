@@ -1,22 +1,15 @@
-        <footer class="footer">
+<footer class="footer">
             <section class="service__section">
                 <div class="service__row">
-                    <div class="service-row__item service-row__item--separate">
-                        <img src="<?php echo WT_ASSET('img/icon/fast-delivery.png'); ?>" alt="" class="service-row-item__icon">
-                        <h3 class="service-row-item__text">Miễn phí vận chuyển</h3>
-                    </div>
-                    <div class="service-row__item service-row__item--separate">
-                        <img src="<?php echo WT_ASSET('img/icon/percent.png'); ?>" alt="" class="service-row-item__icon">
-                        <h3 class="service-row-item__text">khuyến mại lên đến 50%</h3>
-                    </div>
-                    <div class="service-row__item service-row__item--separate">
-                        <img src="<?php echo WT_ASSET('img/icon/save-money.png'); ?>" alt="" class="service-row-item__icon">
-                        <h3 class="service-row-item__text">Voucher 10%</h3>
-                    </div>
-                    <div class="service-row__item">
-                        <img src="<?php echo WT_ASSET('img/icon/gift.png'); ?>" alt="" class="service-row-item__icon">
-                        <h3 class="service-row-item__text">Tích điểm nhận quà</h3>
-                    </div>
+                <?php $home_benefits = get_field('home_benefit', 'option'); ?>
+                    <?php if( !empty( $home_benefits ) ): ?>
+                        <?php foreach( $home_benefits as $item ): ?>
+                            <div class="service-row__item service-row__item--separate">
+                                <img src="<?php echo $item['icon']; ?>" alt="" class="service-row-item__icon">
+                                <h3 class="service-row-item__text"><?php echo $item['title']; ?></h3>
+                            </div>
+                        <?php endforeach; ?>
+                    <?php endif; ?>
                 </div>
             </section> <!-- End service -->
             <div class="page-width">
@@ -78,6 +71,8 @@
                 </div>
             </div>
         </footer>
+        
+        <?php require WT_PARTIALS( 'contact-button.php' )?>
         
         <!-- Modal search layout -->
         <div class="modal" id="modal__search">
