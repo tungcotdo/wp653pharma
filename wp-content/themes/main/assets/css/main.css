@@ -8,10 +8,10 @@
 }
 
 .breadcumb__title{
-    font-size: 22px;
+    font-size: 25px;
     color: var(--title-color);
+    font-weight: bold;
 }
-
 
 /* post__detail */
 .post__date{
