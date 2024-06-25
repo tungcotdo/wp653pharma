@@ -72,10 +72,9 @@
 
                     <ul class="header-nav__ul header-nav__ul--menu header-nav__ul--lg">
                         <li class="header-nav__li"><a class="header-nav__a" href="<?php echo home_url('/');?>">Trang chủ</a></li>
-                        <li class="header-nav__li"><a class="header-nav__a" href="">Sản phẩm</a></li>
-                        <li class="header-nav__li"><a class="header-nav__a" href="">Tin tức</a></li>
-                        <li class="header-nav__li"><a class="header-nav__a" href="">Giới thiệu</a></li>
-                        <li class="header-nav__li"><a class="header-nav__a" href="">Liên hệ</a></li>
+                        <li class="header-nav__li"><a class="header-nav__a" href="<?php echo home_url('/');?>?s=">Sản phẩm</a></li>
+                        <li class="header-nav__li"><a class="header-nav__a" href="<?php echo home_url('/');?>?p=188">Giới thiệu</a></li>
+                        <li class="header-nav__li"><a class="header-nav__a" href="<?php echo home_url('/');?>?p=211">Liên hệ</a></li>
                     </ul>
 
                     <ul class="header-nav__ul header-nav__ul--freeship">
